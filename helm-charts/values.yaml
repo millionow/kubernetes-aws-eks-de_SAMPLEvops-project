@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: 277565952452.dkr.ecr.us-east-1.amazonaws.com/project-ecr-repo
+  repository: 339712912577.dkr.ecr.ap-south-1.amazonaws.com/newrepo:4.0.0
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "replace_image_tag"
