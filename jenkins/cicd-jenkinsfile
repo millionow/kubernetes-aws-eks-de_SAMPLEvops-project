@@ -9,12 +9,6 @@ pipeline {
         ECR_REPO_NAME = 'newrepo'
         REGION = 'ap-south-1'
     }
-    stages {
-        stage("Maven Build") {
-            steps {
-                sh 'mvn clean install'
-            }
-        }
         stage('SonarQube Analysis') {
             steps {
                 withSonarQubeEnv('sonar') {
