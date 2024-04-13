@@ -1,5 +1,6 @@
 pipeline {
-    agent { label 'slave' }
+    #agent { label 'slave' }
+    agent any
     environment {
         TAG_VERSION = '4.0.0'
         REGISTRY_PATH = '339712912577.dkr.ecr.ap-south-1.amazonaws.com'
