@@ -1,5 +1,5 @@
 pipeline {
-    #agent { label 'slave' }
+    // agent { label 'slave' }
     agent any
     environment {
         TAG_VERSION = '4.0.0'
