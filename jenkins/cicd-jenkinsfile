@@ -4,7 +4,7 @@ pipeline {
         TAG_VERSION = '4.0.0'
         REGISTRY_PATH = '339712912577.dkr.ecr.ap-south-1.amazonaws.com'
         ECR_REPO_FULL_NAME = '339712912577.dkr.ecr.ap-south-1.amazonaws.com/newrepo'
-        WAR_FULL_PATH = '/home/ec2-user/workspace/newpr/target/project-app.war'
+        WAR_FULL_PATH = '/home/ec2-user/workspace/new1/target/project-app.war'
         TMP_IMAGE_NAME = 'project-app'
         ECR_REPO_NAME = 'newrepo'
         REGION = 'ap-south-1'
